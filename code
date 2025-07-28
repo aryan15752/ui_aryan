@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Banking UI</title>
+</head>
+<body>
+
+  <h1>MyBank - Account Dashboard</h1>
+
+  <hr>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Accounts</a></li>
+      <li><a href="#">Transfers</a></li>
+      <li><a href="#">Payments</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </nav>
+
+  <hr>
+
+  <!-- Account Info -->
+  <section>
+    <h2>Account Summary</h2>
+    <p><strong>Account Holder:</strong> John Doe</p>
+    <p><strong>Account Number:</strong> 1234567890</p>
+    <p><strong>Current Balance:</strong> $12,450.00</p>
+  </section>
+
+  <hr>
+
+  <!-- Transactions -->
+  <section>
+    <h2>Recent Transactions</h2>
+    <table border="1" cellpadding="10">
+      <tr>
+        <th>Date</th>
+        <th>Description</th>
+        <th>Amount</th>
+      </tr>
+      <tr>
+        <td>2025-07-27</td>
+        <td>Salary</td>
+        <td>+ $3,000.00</td>
+      </tr>
+      <tr>
+        <td>2025-07-25</td>
+        <td>Groceries</td>
+        <td>- $150.45</td>
+      </tr>
+      <tr>
+        <td>2025-07-22</td>
+        <td>Electricity Bill</td>
+        <td>- $75.00</td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 MyBank. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
